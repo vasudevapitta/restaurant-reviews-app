@@ -176,7 +176,6 @@ createRestaurantHTML = (restaurant) => {
   for(let i=0; i<numOfReviews; i++){
     totalRatingVal+=restaurant.reviews[i].rating;
   }
-  console.log(totalRatingVal);
 
   let finalRating = totalRatingVal/numOfReviews;
   let actualRating = finalRating;
