@@ -1,6 +1,8 @@
 const staticCacheName = 'v1';
 
 //list of urls we want to cache
+//if you are running a local host - change all paths accordingly
+
 const allCacheURLs = [
 'restaurant.html',
 'index.html',
