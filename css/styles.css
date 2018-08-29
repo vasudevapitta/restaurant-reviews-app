@@ -349,6 +349,10 @@ nav h1 a {
 
 @media screen and (max-width: 400px) {
 
+  #restaurants-list li a {
+    transform: translateX(50px);
+  }
+
   nav h1 a {
     font-size: 0.8em;
   }
@@ -384,6 +388,10 @@ nav h1 a {
 }
 
 @media screen and (min-width: 401px) and (max-width: 600px) {
+
+  #restaurants-list li a {
+  transform: translateX(100px);
+}
 
   nav h1 a {
     font-size: 0.9em;
