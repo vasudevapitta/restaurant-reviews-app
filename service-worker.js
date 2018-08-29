@@ -39,7 +39,7 @@ leading to your service worker not getting installed. */
 self.addEventListener('install', function(e){
 	e.waitUntil(
 		caches.open(staticCacheName).then((cache)=>{
-			return cache.addAll(allCacheURLs);
+			return cache.addAll(allCacheURLs, );
 		})
 	);
 });
