@@ -444,7 +444,8 @@ nav h1 a {
 }
 
 
-#restaurants-list li a:hover {
+#restaurants-list li a:hover,
+#restaurants-list li a:focus {
     transition: 0.3s ease;
     background-color: #FFCF77;
     color: #000;
